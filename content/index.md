@@ -4,16 +4,14 @@ title: "Ylva design"
 Hej o välkommen!
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="img/eld.jpg" class="right" caption="Bild på mig"]
 
 Jag heter Ylva.
 
 Jag är uppvuxen i Lund men har sedan flyttat en del. Bott längre perioder i London, Barcelona och på Sri Lanka.
 Jag gick ett år på Systemvetenskap i tidiga 20-års åldern, tröttnade på tryggheten, o flyttade till Barcelona.
 Där började jag sälja smycken i Gaudis mästerverk Parc Guel. Det blev en sann passion, att göra smycken, och
-jag började med stål och har sedan fortsatt med silver. Jag har gått som lärling kortare perioder men är mestadels självlärd, med hjälp ifrån guldsmeder online. Jag har numera en lång beställningslista och har startat företag, som är under uppbyggnad.
+jag började med stål och har sedan fortsatt med silver. Jag har gått som lärling kortare perioder, även lärt mig av polare, men är mestadels självlärd, med hjälp ifrån guldsmeder online och böcker. Jag har numera en lång beställningslista och har startat företag, som är under uppbyggnad.
 
 Jag har länge velat göra mina egna webbsidor, till mig och till intressanta personer o verksamheter, och hjälpa med att t ex förmedla konst
 i världen. Så, jag skrev in mig på kurserna ifrån Bth första gången för 7 år sedan tror jag. Sedan har det hänt
