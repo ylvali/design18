@@ -1,25 +1,27 @@
 ---
-title: "Min fina titel"
+title: "Ylva design"
 ---
-Min me-sida i kursen design
+Hej o välkommen!
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
 [FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag heter Ylva.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag är uppvuxen i Lund men har sedan flyttat en del. Bott längre perioder i London, Barcelona och på Sri Lanka.
+Jag gick ett år på Systemvetenskap i tidiga 20-års åldern, tröttnade på tryggheten, o flyttade till Barcelona.
+Där började jag sälja smycken i Gaudis mästerverk Parc Guel. Det blev en sann passion, att göra smycken, och
+jag började med stål och har sedan fortsatt med silver. Jag har gått som lärling kortare perioder men är mestadels självlärd, med hjälp ifrån guldsmeder online. Jag har numera en lång beställningslista och har startat företag, som är under uppbyggnad.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Jag har länge velat göra mina egna webbsidor, till mig och till intressanta personer o verksamheter, och hjälpa med att t ex förmedla konst
+i världen. Så, jag skrev in mig på kurserna ifrån Bth första gången för 7 år sedan tror jag. Sedan har det hänt
+väldigt mkt i min historia och jag har inte varit fokuserad på webbprogrammering. Först vid 30 års ålder så tog jag tag ordentligt i studierna igen, och gått dels 30hp webbprogrammering ifrån Bth samt 30hp ifrån Lnu.
+Jag är mycket förtjust i webbprogrammering, och älskar att bygga i kod samt även att designa sidornas look.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Så, nu är mitt mål med att gå detta programmet att göra imponerande affärsystem samt webbaffär till min verksamhet.
+Jag har dessutom ett pågående projekt och samarbete med ett märke ( just nu 4 butiker på Sri Lanka, som går bra) att skapa deras POS - ett affärsystem. Det är jättespännande och händer parallellt med dessa kurser och metallsmidet, men utan tidspress.
+Det känns super att direkt implementera det som jag absorberar i dessa kurser.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Det ska också bli enormt roligt och spännande att bygga webbplatsen för min egen verksamhet.
