@@ -1,5 +1,16 @@
 ---
 title: "Ylva design"
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/byline
+        data:
+            meta:
+                type: single
+                route: block/byline
+        sort: 2
+
 ---
 Hej o välkommen!
 =========================

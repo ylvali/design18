@@ -14,7 +14,7 @@ return [
         "data" => [
             "baseTitle" => " | design",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "img/starHeader.jpg",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
