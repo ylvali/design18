@@ -12,15 +12,15 @@ return [
         "region" => "layout",
         "template" => "anax/v2/layout/dbwebb_se",
         "data" => [
-            "baseTitle" => " | design",
+            "baseTitle" => " | bth course design 2018 - 2019",
             "bodyClass" => null,
             "favicon" => "img/starHeader.jpg",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
                 // Change here to set another default stylesheet
-                "css/dbwebb-se.min.css",
-                //"css/kmom01.css",
+                //"css/dbwebb-se.min.css",
+                "css/kmom01.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
