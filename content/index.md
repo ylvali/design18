@@ -33,4 +33,5 @@ Så, nu är mitt mål med att gå detta programmet att göra imponerande affärs
 Jag har dessutom ett pågående projekt och samarbete med ett märke ( just nu 4 butiker på Sri Lanka, som går bra) att skapa deras POS - ett affärsystem. Det är jättespännande och händer parallellt med dessa kurser och metallsmidet, men utan tidspress.
 Det känns super att direkt implementera det som jag absorberar i dessa kurser.
 
-Det ska också bli enormt roligt och spännande att bygga webbplatsen för min egen verksamhet.
+Det ska också bli enormt roligt och spännande att bygga webbplatsen för min egen verksamhet. I nuläget så håller jag på att starta
+en produktion, som wepplatsen ska representera samt möjligen även styra. Vi får se hur det går :) 
