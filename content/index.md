@@ -15,12 +15,10 @@ views:
 Hej o välkommen!
 =========================
 
-[FIGURE src="img/eld.jpg" class="right" caption="Bild på mig"]
-
 Jag heter Ylva.
 
 Jag är uppvuxen i Lund men har sedan flyttat en del. Bott längre perioder i London, Barcelona och på Sri Lanka.
-Jag gick ett år på Systemvetenskap i tidiga 20-års åldern, tröttnade på tryggheten, o flyttade till Barcelona.
+Jag gick ett år på Systemvetenskap i tidiga 20-års åldern, men längtade bort, o flyttade till Barcelona.
 Där började jag sälja smycken i Gaudis mästerverk Parc Guel. Det blev en sann passion, att göra smycken, och
 jag började med stål och har sedan fortsatt med silver. Jag har gått som lärling kortare perioder, även lärt mig av polare, men är mestadels självlärd, med hjälp ifrån guldsmeder online och böcker. Jag har numera en lång beställningslista och har startat företag, som är under uppbyggnad.
 
@@ -34,4 +32,6 @@ Jag har dessutom ett pågående projekt och samarbete med ett märke ( just nu 4
 Det känns super att direkt implementera det som jag absorberar i dessa kurser.
 
 Det ska också bli enormt roligt och spännande att bygga webbplatsen för min egen verksamhet. I nuläget så håller jag på att starta
-en produktion, som wepplatsen ska representera samt möjligen även styra. Vi får se hur det går :) 
+en produktion, som webbplatsen ska representera samt möjligen även styra. Vi får se hur det går :)
+
+[FIGURE src="img/ylva2018.jpg" class="introPic" caption="Bild på mig, 2018"]

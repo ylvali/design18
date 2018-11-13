@@ -4,6 +4,210 @@
  * This stylesheet is for the design course and kmom01. Fill it with style
  * to style up the website so it is useable.
  */
+ /*
+
+
+ /* ------------------------------Base rules */
+ body {
+     background-color: #27182C;
+     color: #FFF;
+     line-height: 22px;
+     font-family: monospace;
+ }
+
+ a {
+     text-decoration: none;
+     font-size: 1.1em;
+     color: #33121D;
+ }
+
+ a:hover {
+     color: #3A1614;
+ }
+
+ a:visited {
+     color: #36131A;
+ }
+
+ h1 {
+     color: #fff;
+     text-shadow: 2px 2px #8C7183;
+     text-align: center;
+ }
+
+ /* ------------------------------ Layout */
+
+ /* Global NAVBAR */
+.rm-navbar ul {
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.rm-navbar ul li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 3px;
+}
+
+.rm-navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rm-navbar ul li a:hover {
+    color: #2D1023;
+}
+
+.rm-navbar .selected {
+    color: red;
+}
+
+
+/* Wrapper */
+ .wrap-all {
+     width: 800px;
+     margin: 0 auto;
+     background-color: #6A5061;
+     padding: 20px;
+     border-radius: 25px;
+     overflow-y: auto;
+ }
+
+ .wrap-all img {
+     max-width: 800px;
+ }
+
+ /* Logo */
+ .site-logo {
+     max-width: 200px;
+     position: absolute;
+     left: 50px;
+     top: 10px;
+ }
+
+ .site-logo img {
+     width: 250px;
+     border-radius: 25px;
+ }
+
+ .site-logo-text {
+     font-family :monospace;
+     font-size: 1.5em;
+     position: absolute;
+     color: #fff;
+     text-shadow: 2px 2px #8C7183;
+     left: 50px;
+     top: 160px;
+ }
+ /* Article */
+
+
+ /* Byline */
+ .byline {
+     width: 400px;
+     background: black;
+     color: white;
+     border-radius: 25px;
+     padding: 5px;
+     margin: 0 auto
+ }
+
+ .bylinePic img{
+     width: 100px;
+     float:left;
+     padding: 10px;
+ }
+
+ /* Footer */
+ .footer-column {
+     width:27.3%;
+     float: left;
+     padding: 1%;
+     margin: 2%;
+     background-color: #836B8A;
+     border-radius: 25px;
+     color: black;
+     -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ .site-footer{
+     clear: both;
+     width: 90%;
+     padding: 2%;
+     margin:0 auto;
+     background-color: #836B8A;
+     border-radius: 25px;
+     color: black;
+     text-align: center;
+     -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+
+ /* Block on the right */
+ .region-sidebar-right {
+     width:25%;
+     float: right;
+     padding: 2%;
+     margin: 2%;
+     background-color: #836B8A;
+     border-radius: 25px;
+     color: black;
+     -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+
+ }
+
+/*----------------------------------- Module */
+/* Intro pic */
+ .introPic {
+     width: 300px;
+     margin: 0 auto;
+ }
+
+ .introPic img{
+     width: 300px;
+     border-radius: 25px;
+ }
+
+/* Global nav, site specific */
+ .toc ul {
+     list-style: none;
+     text-align: center;
+     border-top: 1px solid #eee;
+     border-bottom: 1px solid #eee;
+     padding: 10px 0;
+ }
+
+ .toc ul li {
+     display: block;
+     text-transform: uppercase;
+     padding: 0 10px;
+     letter-spacing: 3px;
+ }
+
+ .toc ul li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .toc ul li a:hover {
+     color: #2D1023;
+ }
+
+ .toc .selected {
+     color: red;
+ }
+
+
+
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {

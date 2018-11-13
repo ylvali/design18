@@ -1,1 +1,1 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+Copyright Ylva Sjölin 2018
