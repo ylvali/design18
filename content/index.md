@@ -34,4 +34,6 @@ Det känns super att direkt implementera det som jag absorberar i dessa kurser.
 Det ska också bli enormt roligt och spännande att bygga webbplatsen för min egen verksamhet. I nuläget så håller jag på att starta
 en produktion, som webbplatsen ska representera samt möjligen även styra. Vi får se hur det går :)
 
+<span class="fas fa-stroopwafel"></span> 
+
 [FIGURE src="img/ylva2018.jpg" class="introPic" caption="Bild på mig, 2018"]

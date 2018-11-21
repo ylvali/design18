@@ -1,0 +1,71 @@
+/*====================================
+=            BREAK POINTS            =
+====================================*/
+//@wide-screen-down: ~'(max-width: 1199px)';
+//@desktop-down: ~'(max-width: 991px)';
+//@tablet-down: ~'(max-width: 767px)';
+//@phone-down: ~'(max-width: 480px)';
+//@small-phone-down: ~'(max-width: 320px)';
+
+@bp1:~'(max-width: 1500px)';
+@bp2:~'(max-width: 1200px)';
+@bp3: ~'(max-width: 785px)';
+
+@maxWidth:100%;
+@nearMaxWidth:80%;
+
+@media @bp1 {
+
+    .site-logo {
+        max-width: 150px;
+    }
+
+    .site-logo img {
+        width: 150px;
+    }
+
+    .site-logo-text {
+        left: 50px;
+        top: 100px;
+        font-size: 1em;
+    }
+}
+
+@media @bp2 {
+
+    .site-logo {
+        width: @maxWidth;
+        position: relative;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .site-logo img {
+        width: @maxWidth;
+        position: relative;
+        margin: 0 auto;
+        float: left;
+        padding: 10px;
+    }
+
+    .site-logo-text {
+        display: none;
+
+    }
+
+
+}
+
+@media @bp3 {
+
+    .wrap-all {
+        width: @nearMaxWidth;
+    }
+
+    .wrap-all img {
+        width: @maxWidth;
+        padding: 10px;
+    }
+
+
+}

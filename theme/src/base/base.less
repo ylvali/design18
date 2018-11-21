@@ -1,0 +1,42 @@
+
+// ------------------------- BASE Style
+
+// ----------- Variables
+// Color scheme
+@darkerNuance:#27182C;
+@mediumNuance:#33121D;
+@lightNuance:#8A7F8B;
+@lightest:white;
+
+// Sizes
+@spaceNr:22px;
+
+
+
+/* ------------------------------Base rules */
+body {
+    background-color: @darkerNuance;
+    color: @lightest;
+    line-height: @spaceNr;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: @mediumNuance;
+}
+
+a:hover {
+    color: @darkerNuance;
+}
+
+a:visited {
+    color: @lightNuance;
+}
+
+h1 {
+    color: @lightest;
+    text-shadow: 2px 2px @darkerNuance;
+    text-align: center;
+}
