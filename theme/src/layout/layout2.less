@@ -1,0 +1,164 @@
+/**
+ * Layout style , general look
+ */
+
+/**
+ * Variables
+ */
+
+ // ----------- Variables
+ // Color scheme
+ @darkerNuance1:#1E1D1D; // darkest gray
+ @mediumNuance2:#2E2E2E; // dark gray
+ @mediumNuance1:#666666; // medium gray
+ @lightNuance2:#959494; // light gray
+ @lightNuance1:#C4C3C3; // lightest gray
+ @lightest:white;
+ @darkest:black;
+
+ // Sizes
+ @spaceNr:22px;
+ @theWrapWidth:800px;
+
+// ------------- Page structure
+
+/* Wrapper */
+.wrap-all {
+    width: @theWrapWidth;
+    margin: 0 auto;
+    background-color: @mediumNuance2;
+    padding: 20px;
+    border-radius: 25px;
+    overflow-y: auto;
+}
+
+.wrap-all img {
+    max-width: @theWrapWidth;
+}
+
+// MAIN
+ .has-sidebar-right {
+     width : 75%;
+     float: left;
+
+}
+
+// SIDE BLOCK - right
+.region-sidebar-right {
+    width:17%;
+    float: right;
+    padding: 2%;
+    margin: 2%;
+    background-color: @lightNuance2;
+    border-radius: 25px;
+    color: @darkest;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Global NAVBAR */
+.rm-desktop {
+   list-style: none;
+   text-align: center;
+   border-top: 1px solid #eee;
+   border-bottom: 1px solid #eee;
+   padding: 10px 0;
+   text-transform: uppercase;
+}
+
+.rm-desktop ul li {
+   display: inline;
+   text-transform: uppercase;
+   padding: 0 5px;
+   letter-spacing: 3px;
+   background-color: @darkest;
+}
+
+.rm-desktop ul li a {
+   text-decoration: none;
+   color: @lightest;
+}
+
+.rm-desktop ul li a:hover {
+   text-decoration: underline;
+}
+
+
+
+/* Logo */
+.site-logo {
+    max-width: 250px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.site-logo img {
+    width: 250px;
+    border-radius: 25px;
+}
+
+.site-logo-text {
+    font-family :monospace;
+    font-size: 1.5em;
+    position: absolute;
+    color: @lightest;
+    text-shadow: 2px 2px @darkest;
+    left: 50px;
+    top: 160px;
+}
+/* Article */
+
+
+/* Byline */
+.byline {
+    width: 60%;
+    min-height: 200px;
+    background: black;
+    color: @lightest;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 0 auto
+
+}
+
+.bylinePic img{
+    width: 100px;
+    float:left;
+    padding: 10px;
+}
+
+/* Footer */
+.footer-column {
+    width:27.3%;
+    float: left;
+    padding: 1%;
+    margin: 2%;
+    background-color: @lightNuance2;
+    border-radius: 25px;
+    color: @darkest;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.site-footer{
+    clear: both;
+    width: 90%;
+    padding: 2%;
+    margin:0 auto;
+    background-color: @lightNuance2;
+    border-radius: 25px;
+    color: @darkest;
+    text-align: center;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}

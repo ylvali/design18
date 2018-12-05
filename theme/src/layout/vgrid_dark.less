@@ -9,13 +9,13 @@
 
  // ----------- Variables
  // Color scheme
- @darkerNuance1:#1E1D1D; // darkest gray
- @mediumNuance3:#2E2E2E; // dark gray
- @mediumNuance2:#666666; // medium-dark gray
- @mediumNuance1:#6F6F6F; // medium-light gray
- @lightNuance3:#C4C3C3; // light-dark gray
- @lightNuance2:#9C9C9C; // lighter gray
- @lightNuance1:#CCCBCB; // lightest gray
+ @darkerNuance1:#1E0B08; // darkest red
+ @mediumNuance3:#340800; // dark red
+ @mediumNuance2:#4E0000; // medium red
+ @mediumNuance1:#502D13; // medium orange
+ @lightNuance3:#FD6835; // bright orange
+ @lightNuance2:#8D4716; // bright orange
+ @lightNuance1:#C3422E; // brighter orange
  @lightest:white;
  @darkest:black;
 
@@ -70,7 +70,7 @@
     //width: @theWrapWidth;
     #desinax-vgrid.grid(800px); //grid size
     margin: 0 auto;
-    background-color: @lightNuance3;
+    background-color: @mediumNuance3;
     padding: 25px;
     border-radius: 25px;
     //overflow-y: auto;
@@ -102,7 +102,7 @@
     float: right;
     padding: 0.9%;
     margin: 0.9%;
-    background-color: @lightNuance1;
+    background-color: @lightNuance2;
     border-radius: 25px;
     color: @darkest;
     -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
@@ -122,7 +122,7 @@
    padding-top: 3px;
    text-transform: uppercase;
    letter-spacing: 0.5px;
-   color: @darkest;
+   color: @lightNuance3;
    font-weight: bold;
    //text-shadow: 2px 2px @lightest;
 }
@@ -132,7 +132,7 @@
    text-transform: uppercase;
    //padding: 0 5px;
    letter-spacing: 3px;
-   background-color: @darkest;
+   background-color: @lightNuance2;
 }
 
 .rm-desktop ul li a {
@@ -206,7 +206,7 @@
     float: left;
     padding: 1.3%;
     margin: 1.3%;
-    background-color: @lightNuance1;
+    background-color: @lightNuance2;
     border-radius: 25px;
     color: @darkest;
     -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
@@ -219,7 +219,7 @@
     //width: 90%;
     margin-top: 5px;
     #desinax-vgrid.column(24);
-    background-color: @lightNuance1;
+    background-color: @lightNuance2;
     border-radius: 25px;
     color: @darkest;
     text-align: center;
@@ -265,12 +265,12 @@
 
 .toc ul li a {
     text-decoration: none;
-    color: @darkest;
-    text-shadow: 2px 2px @lightest;
+    color: @lightest;
+    text-shadow: 1px 1px @darkest;
 }
 
 .toc ul li a:hover {
-    color: #2D1023;
+    color:@darkest;
 }
 
 .toc .selected {

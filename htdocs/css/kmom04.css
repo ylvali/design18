@@ -1,4 +1,4 @@
-/* Style kmom02, LESS.
+/* Style kmom04, LESS.
  */
 /**
   * Normalize and reset the style.
@@ -4256,7 +4256,7 @@ template {
  */
 /* ------------------------------Base rules */
 body {
-  background-color: #27182C;
+  background-color: #1E1D1D;
   color: black;
   line-height: 22px;
   font: 13px/1.84615385 "Jura";
@@ -4264,10 +4264,10 @@ body {
 a {
   text-decoration: none;
   font-size: 1.1em;
-  color: #33121D;
+  color: #666666;
 }
 a:hover {
-  color: #27182C;
+  color: #1E1D1D;
 }
 a:visited {
   color: red;

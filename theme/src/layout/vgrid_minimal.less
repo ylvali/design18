@@ -9,15 +9,15 @@
 
  // ----------- Variables
  // Color scheme
- @darkerNuance1:#1E1D1D; // darkest gray
- @mediumNuance3:#2E2E2E; // dark gray
- @mediumNuance2:#666666; // medium-dark gray
- @mediumNuance1:#6F6F6F; // medium-light gray
- @lightNuance3:#C4C3C3; // light-dark gray
- @lightNuance2:#9C9C9C; // lighter gray
- @lightNuance1:#CCCBCB; // lightest gray
- @lightest:white;
- @darkest:black;
+ @darkerNuance1:#0B081D; // darkest blue
+ @mediumNuance3:#140F2D; // dark blue
+ @mediumNuance2:#241F44; // medium-dark blue
+ @mediumNuance1:#2F2B4A; // medium-light blue
+ @lightNuance3:#373540; // light-dark blue
+ @lightNuance2:#605A87; // lighter blue
+ @lightNuance1:#9B95C5; // lightest blue
+ @lightest:#D1CCF4;
+ @darkest:#09061B;
 
  // Sizes
  @spaceNr:22px;
@@ -122,7 +122,7 @@
    padding-top: 3px;
    text-transform: uppercase;
    letter-spacing: 0.5px;
-   color: @darkest;
+   color: @lightest;
    font-weight: bold;
    //text-shadow: 2px 2px @lightest;
 }
@@ -265,12 +265,12 @@
 
 .toc ul li a {
     text-decoration: none;
-    color: @darkest;
-    text-shadow: 2px 2px @lightest;
+    color: @lightest;
+    text-shadow: 1px 1px @darkest;
 }
 
 .toc ul li a:hover {
-    color: #2D1023;
+    color:@darkest;
 }
 
 .toc .selected {

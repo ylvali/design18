@@ -1,0 +1,55 @@
+
+// ------------------------- BASE Style
+
+// ----------- Variables
+// Color scheme - acromatic
+@darkerNuance:#0B081D; // darkest blue
+@mediumNuance2:#15112F; // dark blue
+@mediumNuance:#1F1944; // medium-dark blue
+@lightNuance2:#4A4565; // medium-light blue
+@lightNuance:#6B687D; // lightest gray
+@lightest:#BCB2FA;
+@darkest:#090619;
+
+@florouscentC:#8877F7;
+
+// Sizes
+@spaceNr:22px;
+
+
+
+/* ------------------------------Base rules */
+body {
+    background-color: @darkerNuance;
+    color: @lightest;
+    line-height: @spaceNr;
+    //font-family: monospace
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+code {
+    color: @darkest;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: @mediumNuance;
+}
+
+a:hover {
+    color: @darkerNuance;
+}
+
+a:visited {
+    color: @florouscentC;
+}
+
+h1 {
+    color: @lightNuance2;
+    text-shadow: 2px 2px @lightest;
+    text-align: center;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
