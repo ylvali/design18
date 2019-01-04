@@ -1,0 +1,115 @@
+
+/* Style kmom04, LESS.
+ */
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+* Desinax figure
+*/
+ @import "@desinax/figure/less/style.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/figure.less";
+
+
+ // Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+/**
+ * Base style.
+ */
+@import "base/base3.less";
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+* The grid systems
+*/
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid2.less";
+
+// Default grid, change to fit your requirements.
+//@columnWidth:   30;
+//@gutterWidth:   10;
+//@columns:       24;
+//@gridType:      "float"; // "flex"
+
+
+
+/**
+ * Layout style
+ */
+//@import "layout/layout2.less"; // General layout
+
+//@import "layout/siteSpecific2.less"; // Specific for this site
+
+
+/* Responsive */
+@import "layout/responsive2.less";
+
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+ // Magic number and base fontsize
+ @magicNumber:  24px;  // 22px
+ @fontSizeBody: 13px;
+
+ // Adapt typographic grid to my style
+ @fontFamilyBody: "Jura";

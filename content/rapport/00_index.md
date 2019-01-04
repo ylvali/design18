@@ -36,7 +36,7 @@ Resultat
 </br>
 <img src="img/analyzeThis/versaci.png" width="300">
 
-</br>
+</br> </br>
 
 Sidorna är slående lika. Alla tre använder ett modernt sans serif typsnitt i versaler som titel. Samma font men med mindre letter-spacing används som brödtext, länkar o annan text och då även som gemener.  Ett akromatiskt färgschema används. Bakgrunden är vit, texten är svart eller mörkt grå. På vissa parti det omvända. Det visas stora, dominerande bildspel o videos ifrån både runway och produktion samt produkt fotografi. Sidornas olika delar har en ljusgrå ton. Webbdesignen kan sägas vara minimalistisk, verkligen en kontrast till det som visas.  
 
